@@ -1,0 +1,85 @@
+/*全局字体设置*/
+[lang]:lang(en),
+:lang(en) body {
+    font-family: 'Lato', sans-serif;
+}
+
+[lang]:lang(zh),
+:lang(zh) body {
+    font-family: "SimHei", sans-serif;
+}
+/*大类设置*/
+body {
+    font-family: 'Lato', sans-serif;
+    color: #2d3c49;
+    font-weight: 300;
+}
+
+hr {
+    height: 4px;
+    background: #7d97ad;
+    border: none;
+}
+
+img {
+    transition: width 0.5s;
+}
+
+footer {
+    background-color: #02b3e4;
+    color: white;
+    margin-top: 20px;
+}
+.project-title {
+    font-size: 16px;
+}
+
+.text-muted {
+    color: #bcbbbb;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.big-title {
+    font-size: 50px;
+}
+
+.subheading {
+    margin-bottom: 20px;
+}
+
+.title-logo {
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.project-pic {
+    cursor: pointer;
+}
+
+.description {
+    color: black;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/*LOGO通过媒体查询实现响应式，断点跟随bootstrap*/
+
+@media screen and (min-width: 992px) {
+    .title-logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .big-title {
+    font-size: 60px;
+    }
+
+    .project-title {
+    font-size: 20px;
+    }
+}

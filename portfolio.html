@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" media="screen and (min-width:500px)" href="over500.css">
+        <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="row">
+                <div class="col-md-6">
+                    <img class="title-logo img-responsive" src="images/udacity.svg" alt="udacity-logo">
+                </div>
+                <div class="col-md-6 text-right text-uppercase">
+                    <h1 class="big-title text-thin">Jocelyn Chen</h1>
+                    <h4>Front-end learner</h4>
+                </div>
+            </header>
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <picture>
+                        <img class="img-responsive center-block" src="images/web_2x.jpg" srcset="images/web_1x.jpg 1x, images/web_2x.jpg 2x" alt="web" width="1920">
+                    </picture>
+                </div>
+            </div>
+            <section class="main">
+                <div class="row">
+                    <header class="col-md-12 subheading">
+                        <h2 class="text-muted">Featured Work</h2>
+                    </header>
+                </div>
+                <div class="row text-center">
+                    <article class="col-md-4">
+                        <picture class="project-pic">
+                            <img class="img-responsive center-block" src="images/project1_1x.jpg" srcset="images/project1_1x.jpg 1x, images/project1_2x.jpg 2x" alt="project1" data-toggle="modal" data-target="#project1">
+                        </picture>
+                        <h3 class="project-title" lang="zh">项目一：模仿还原</h3>
+                        <p>http://git</p>
+                    </article>
+                    <article class="col-md-4">
+                        <picture class="project-pic">
+                            <img class="img-responsive center-block" src="images/project2_2x.jpg" srcset="images/project2_1x.jpg 1x, images/project2_2x.jpg 2x" alt="project2" data-toggle="modal" data-target="#project2">
+                        </picture>
+                        <h3 class="project-title" lang="zh">项目二：动物交换卡</h3>
+                        <p>http://git</p>
+                    </article>
+                    <article class="col-md-4">
+                        <picture class="project-pic">
+                            <img class="img-responsive center-block" src="images/project3_1x.jpg" srcset="images/project3_1x.jpg 1x, images/project3_2x.jpg 2x" alt="project3" data-toggle="modal" data-target="#project3">
+                        </picture>
+                        <h3 class="project-title" lang="zh">项目三：作品集网站</h3>
+                        <p >http://git</p>
+                    </article>
+                </div>
+            </section>
+            <footer class="text-center">
+                <p>©Jocelyn Chen</p>
+            </footer>
+        </div>
+    <!-- Modal1 -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="Modal1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="Modal1">Fitst is the best!</h4>
+                </div>
+                <div class="modal-body text-center">
+                    <img class="img-responsive center-block" src="images/project1_1x.jpg" srcset="images/project1_1x.jpg 1x, images/project1_2x.jpg 2x" alt="mock">
+                    <p class="description" lang="zh">非常简单的模仿作业，初步了解html知识。亮点：ul的padding设置。</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal2 -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="Modal2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="Modal2">One sheep, two sheep, go to sleep.</h4>
+                </div>
+                <div class="modal-body text-center">
+                    <img class="img-responsive center-block" src="images/project2_1x.jpg" srcset="images/project2_1x.jpg 1x, images/project2_2x.jpg 2x" alt="card">
+                    <p class="description" lang="zh">苏格兰黑脸羊的动物交换卡</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal3 -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="Modal3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="Modal3">Portfolio</h4>
+                </div>
+                <div class="modal-body text-center">
+                    <img class="img-responsive center-block" src="images/project3_1x.jpg" srcset="images/project3_1x.jpg 1x, images/project3_2x.jpg 2x" alt="portfolio">
+                    <p class="description" lang="zh">纳米学位作品展示集，就是，你现在在看的网页啦！</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
